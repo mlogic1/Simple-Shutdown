@@ -30,13 +30,11 @@ mingw32-make -f makefile.gcc USE_XRC=1 SHARED=1 MONOLITHIC=1 BUILD=release UNICO
 
  [C::B Wiki page](http://wiki.codeblocks.org/index.php/Compiling_wxWidgets_3.0.0_to_develop_Code::Blocks_(MSW))
  
- # Download
- ### [Setup](https://www.dropbox.com/s/6j0n5e79etwkpyg/setup-SimpleShutdown.exe?dl=1)
- ### [Portable](https://www.dropbox.com/s/5cibdhzv0152acx/SimpleShutdown_Portable.zip?dl=1)
+# Download
+- [Setup](https://www.dropbox.com/s/6j0n5e79etwkpyg/setup-SimpleShutdown.exe?dl=1)
+- [Portable](https://www.dropbox.com/s/5cibdhzv0152acx/SimpleShutdown_Portable.zip?dl=1)
  
-#
-#
-#
+
  
  
 # License
