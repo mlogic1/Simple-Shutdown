@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxDialog" name="Instructions">
+		<title>Help</title>
+		<centered>1</centered>
+		<size>583,199</size>
+		<id_arg>0</id_arg>
+		<object class="wxStaticText" name="ID_STATICTEXT1" variable="StaticText1" member="yes">
+			<label>How to use the application</label>
+			<pos>6,8</pos>
+			<font>
+				<size>12</size>
+				<style>normal</style>
+				<weight>bold</weight>
+				<underlined>0</underlined>
+				<family>swiss</family>
+				<face></face>
+			</font>
+		</object>
+		<object class="wxStaticLine" name="ID_STATICLINE1" variable="StaticLine1" member="yes">
+			<pos>6,32</pos>
+			<size>570,2</size>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT2" variable="StaticText2" member="yes">
+			<label>Select the wanted action to perform on the left side and time until the action on the right side and press Set.&#x0A;You will be notified by windows that an event was scheduled.&#x0A;&#x0A;To cancel press the &quot;Cancel any existing jobs&quot; button to cancel any shutdown event you have scheduled.</label>
+			<pos>6,40</pos>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT3" variable="StaticText3" member="yes">
+			<label>Force</label>
+			<pos>6,128</pos>
+			<font>
+				<size>12</size>
+				<style>normal</style>
+				<weight>bold</weight>
+				<underlined>0</underlined>
+				<family>swiss</family>
+				<face></face>
+			</font>
+		</object>
+		<object class="wxStaticLine" name="ID_STATICLINE2" variable="StaticLine2" member="yes">
+			<pos>6,150</pos>
+			<size>570,-1</size>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT4" variable="StaticText4" member="yes">
+			<label>Force is an optional setting that forces the computer to shutdown/restart in case an application causes it &#x0A;to wait for user to respond.</label>
+			<pos>6,152</pos>
+			<size>-1,-1</size>
+		</object>
+	</object>
+</wxsmith>

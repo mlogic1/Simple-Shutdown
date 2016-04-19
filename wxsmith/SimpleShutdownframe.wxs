@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxFrame" name="SimpleShutdownFrame">
+		<title>Simple Shutdown</title>
+		<centered>1</centered>
+		<icon>icon.ico</icon>
+		<size>259,257</size>
+		<id_arg>0</id_arg>
+		<style>wxCAPTION|wxCLOSE_BOX|wxMINIMIZE_BOX</style>
+		<object class="wxPanel" name="ID_PANEL1" variable="Panel1" member="yes">
+			<pos>208,256</pos>
+			<size>259,288</size>
+			<object class="wxStaticBox" name="ID_STATICBOX1" variable="StaticBox1" member="yes">
+				<label>Action</label>
+				<pos>8,8</pos>
+				<size>104,200</size>
+			</object>
+			<object class="wxRadioButton" name="ID_RADIOBUTTON1" variable="RadioButtonShutdown" member="yes">
+				<label>Shutdown</label>
+				<pos>16,28</pos>
+			</object>
+			<object class="wxRadioButton" name="ID_RADIOBUTTON2" variable="RadioButtonRestart" member="yes">
+				<label>Restart</label>
+				<pos>16,48</pos>
+			</object>
+			<object class="wxCheckBox" name="ID_CHECKBOX1" variable="CheckBoxForce" member="yes">
+				<label>Force</label>
+				<checked>1</checked>
+				<pos>16,120</pos>
+				<handler function="OnForceCheck" entry="EVT_CHECKBOX" />
+			</object>
+			<object class="wxStaticBox" name="ID_STATICBOX2" variable="StaticBox2" member="yes">
+				<label>Time</label>
+				<pos>120,8</pos>
+				<size>136,200</size>
+			</object>
+			<object class="wxStaticText" name="ID_STATICTEXT1" variable="StaticText1" member="yes">
+				<label>Set time until the event</label>
+				<pos>128,24</pos>
+			</object>
+			<object class="wxChoice" name="ID_CHOICE1" variable="ChoiceM" member="yes">
+				<selection>0</selection>
+				<pos>128,96</pos>
+				<size>112,21</size>
+			</object>
+			<object class="wxStaticText" name="ID_STATICTEXT2" variable="StaticText2" member="yes">
+				<label>Hours</label>
+				<pos>128,40</pos>
+			</object>
+			<object class="wxStaticText" name="ID_STATICTEXT3" variable="StaticText3" member="yes">
+				<label>Minutes</label>
+				<pos>128,80</pos>
+			</object>
+			<object class="wxStaticText" name="ID_STATICTEXT4" variable="StaticText4" member="yes">
+				<label>Seconds</label>
+				<pos>128,120</pos>
+			</object>
+			<object class="wxChoice" name="ID_CHOICE2" variable="ChoiceS" member="yes">
+				<selection>0</selection>
+				<pos>128,136</pos>
+				<size>112,21</size>
+			</object>
+			<object class="wxChoice" name="ID_CHOICE3" variable="ChoiceH" member="yes">
+				<selection>0</selection>
+				<pos>128,56</pos>
+				<size>112,21</size>
+			</object>
+			<object class="wxButton" name="ID_BUTTON1" variable="Button1" member="yes">
+				<label>Cancel any&#x0A;existing jobs</label>
+				<pos>16,160</pos>
+				<size>88,40</size>
+				<handler function="OnButton1Click" entry="EVT_BUTTON" />
+			</object>
+			<object class="wxButton" name="ID_BUTTON2" variable="Button2" member="yes">
+				<label>  Set</label>
+				<pos>176,165</pos>
+				<size>64,32</size>
+				<style>wxBU_LEFT</style>
+				<handler function="OnButton2Click" entry="EVT_BUTTON" />
+			</object>
+			<object class="wxStaticLine" name="ID_STATICLINE1" variable="StaticLine1" member="yes">
+				<pos>16,145</pos>
+				<size>90,2</size>
+			</object>
+			<object class="wxRadioButton" name="ID_RADIOBUTTON3" variable="RadioButtonSleep" member="yes">
+				<label>Sleep</label>
+				<pos>16,68</pos>
+			</object>
+			<object class="wxRadioButton" name="ID_RADIOBUTTON4" variable="RadioButtonHibernate" member="yes">
+				<label>Hibernate</label>
+				<pos>16,88</pos>
+			</object>
+		</object>
+		<object class="wxMenuBar" variable="MenuBar1" member="yes">
+			<object class="wxMenu" variable="Menu1" member="yes">
+				<label>&amp;File</label>
+				<object class="wxMenuItem" name="ID_SYSTEMTRAY" variable="MenuItem4" member="yes">
+					<label>Send to system tray</label>
+				</object>
+				<object class="wxMenuItem" name="ID_EXIT" variable="MenuItem2" member="yes">
+					<label>Exit</label>
+					<accel>Alt-F4</accel>
+				</object>
+			</object>
+			<object class="wxMenu" variable="Menu2" member="yes">
+				<label>Help</label>
+				<object class="wxMenuItem" name="ID_INSTRUCTIONS" variable="MenuItem3" member="yes">
+					<label>Help</label>
+					<accel>F1</accel>
+				</object>
+				<object class="wxMenuItem" name="ID_ABOUT" variable="MenuItem1" member="yes">
+					<label>About</label>
+					<accel>F2</accel>
+				</object>
+			</object>
+		</object>
+		<object class="wxStatusBar" name="ID_STATUSBAR1" variable="StatusBar1" member="yes">
+			<fields>1</fields>
+			<widths>-10</widths>
+			<styles>wxSB_NORMAL</styles>
+		</object>
+	</object>
+</wxsmith>
